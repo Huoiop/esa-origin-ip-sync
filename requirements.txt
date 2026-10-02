@@ -1,0 +1,3 @@
+python-dotenv
+alibabacloud_esa20240910
+alibabacloud_ecs20140526
