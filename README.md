@@ -55,3 +55,7 @@ ecs:RevokeSecurityGroup
 4. 用最新白名单创建新的 IPv4 / IPv6 前缀列表
 5. 将新前缀列表绑定到安全组的指定端口
 6. 调用 ESA `UpdateOriginProtectionIpWhiteList` 确认更新
+
+## 其他
+
+项目代码由 DeepSeek V4.1 Flash 编写，已经过真实验证。
