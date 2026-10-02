@@ -45,7 +45,7 @@ PREFIX_LIST_DESC = os.environ.get(
 MANAGED_NAME_PREFIX = os.environ.get('MANAGED_NAME_PREFIX', 'ESA')
 
 # --- 安全组规则 ---
-# PORTS 用逗号分隔，例如 "21001/21001,443/443,80/80"
+# PORTS 用逗号分隔，例如 "443/443,80/80"
 PORTS = [p.strip() for p in _require('SECURITY_GROUP_PORTS').split(',') if p.strip()]
 IP_PROTOCOL = os.environ.get('SECURITY_GROUP_IP_PROTOCOL', 'TCP')
 NIC_TYPE = os.environ.get('SECURITY_GROUP_NIC_TYPE', 'intranet')
